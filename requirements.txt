@@ -5,18 +5,17 @@ unstructured[pdf]==0.14.9
 # Vector Database
 chromadb==0.5.3
 
-# Embeddings & Deep Learning Foundations (PyTorch-based)
+# Embeddings & Deep Learning Foundations
 torch>=2.0.0
 sentence-transformers==3.0.1
+hf_xet
 
-# AI Orchestration Frameworks
+# AI Orchestration Frameworks & Gateways
 langchain==0.2.5
 langchain-community==0.2.5
 openai==1.35.3
-
-# Evaluation & SRE Metrics
-deepeval==4.1.1
-
-hf_xet
 litellm==1.41.1
+
+# Evaluation, Observability & SRE Metrics
+deepeval==4.1.1
 langsmith
